@@ -1,0 +1,36 @@
+.inputs-container {
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+
+}
+
+.terminals-input input {
+    margin-right: 10px;
+    border-radius: 15px;
+    border: 2px solid #63bfcf;
+    outline: none;
+}
+
+.terminals-table {
+    min-width: 50vh;
+    margin-top: 25px;
+    border: solid 1px #DDEEEE;
+    border-collapse: collapse;
+    border-spacing: 0;
+    font: normal 13px Arial, sans-serif;
+}
+.terminals-table thead th {
+    background-color: #DDEFEF;
+    border: solid 1px #DDEEEE;
+    color: #336B6B;
+    padding: 10px;
+    text-align: left;
+    text-shadow: 1px 1px 1px #fff;
+}
+.terminals-table tbody td {
+    border: solid 1px #DDEEEE;
+    color: #333;
+    padding: 10px;
+    text-shadow: 1px 1px 1px #fff;
+}

@@ -1,0 +1,13 @@
+.sidebar_wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    -webkit-box-shadow: 20px 0 20px 0 rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 20px 0 20px 0 rgba(34, 60, 80, 0.2);
+    box-shadow: 20px 0 20px 0 rgba(34, 60, 80, 0.2);
+}
+
+.sidebar_wrapper ul {
+    padding: 0;
+}
